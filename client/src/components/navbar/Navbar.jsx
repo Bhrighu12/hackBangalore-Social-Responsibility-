@@ -16,8 +16,8 @@ function Navbar(){
                 <a href="/projects">Projects</a>
             </div>
             <div className="right">
-                <a href="/">Login</a>
-                <a href="/" className="register">Signup</a>
+                <a href="/login">Login</a>
+                <a href="/register" className="register">Signup</a>
                 <div className="menuIcon">
                     <img src = "/menu.png"
                     alt="" 
@@ -28,8 +28,8 @@ function Navbar(){
                 <a href="/">About</a>
                 <a href="/">Contact</a>
                 <a href="/projects">Projects</a>
-                <a href="/">Login</a>
-                <a href="/">Signup</a>
+                <a href="/login">Login</a>
+                <a href="/register">Signup</a>
                 </div>
             </div>
         </nav>

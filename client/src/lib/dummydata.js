@@ -60,7 +60,7 @@ export const listData = [
       img: "https://www.researchgate.net/publication/315462776/figure/fig1/AS:614174153515026@1523441937925/training-with-the-exoskeleton-hand-driven-by-myoelectric-pattern-recognition.png",
       description:"MyoLink is an advanced prosthetic arm system that utilizes electromyography (EMG) signals to provide intuitive and precise control for users with upper limb amputations. By detecting muscle activity from residual limb muscles, MyoLink translates these signals into natural and fluid movements of the prosthetic arm, enhancing functionality and user experience",
       investment: 70000,
-    },
+    }
   ];
   
   export const singlePostData = {
