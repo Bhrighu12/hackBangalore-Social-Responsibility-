@@ -13,7 +13,7 @@ function Navbar(){
                 <a href="/">Home</a>
                 <a href="/">About</a>
                 <a href="/">Contact</a>
-                <a href="/">Projects</a>
+                <a href="/projects">Projects</a>
             </div>
             <div className="right">
                 <a href="/">Login</a>
@@ -27,7 +27,7 @@ function Navbar(){
                 <a href="/">Home</a>
                 <a href="/">About</a>
                 <a href="/">Contact</a>
-                <a href="/">Grab Your Investor</a>
+                <a href="/projects">Projects</a>
                 <a href="/">Login</a>
                 <a href="/">Signup</a>
                 </div>

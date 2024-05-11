@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import ProjectPage from "./routes/projectPage/projectPage";
 import Layout from "./routes/layoutPage/layout";
+import SinglePage from "./routes/singlePage/singlePage";
 function App() {
   const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ function App() {
         {
           path:"/projects",
           element:<ProjectPage/>
+        },
+        {
+          path:"/:id",
+          element:<SinglePage/>
         }
       ]
 }
