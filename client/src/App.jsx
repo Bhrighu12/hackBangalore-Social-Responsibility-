@@ -1,6 +1,5 @@
 import HomePage from "./routes/homepage/homepage"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { AuthProvider } from './context/AuthContext';
 import ProjectPage from "./routes/projectPage/projectPage";
 import { Layout, RequireAuth } from "./routes/layoutPage/layout";
 import SinglePage from "./routes/singlePage/singlePage";
@@ -63,11 +62,7 @@ function App() {
     },
   ]);
 
-  return( 
-    <AuthProvider>
-  <RouterProvider router={router} />
-  </AuthProvider>
-);
+  return <RouterProvider router={router} />;
 }
 
 export default App;
