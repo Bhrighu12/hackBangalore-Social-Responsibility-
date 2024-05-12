@@ -10,8 +10,10 @@
   }
 
   .details {
+    background-color: white;
     flex: 3;
     overflow-y: scroll;
+    height: 100vh;
     padding-bottom: 50px;
 
     @include md{

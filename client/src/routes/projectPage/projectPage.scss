@@ -1,12 +1,14 @@
 @import "../../responsive.scss";
 
 .listPage {
+  background-color: white;
   display: flex;
   height: 100%;
   
   .listContainer {
     flex: 3;
     height: 100%;
+    background-color:white;
 
     .wrapper{
       padding-right: 50px;

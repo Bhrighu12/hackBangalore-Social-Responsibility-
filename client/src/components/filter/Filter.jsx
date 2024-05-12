@@ -31,7 +31,7 @@ function Filter() {
       </h1>
       <div className="top">
         <div className="item">
-          <label htmlFor="city">Location</label>
+          <label htmlFor="city"><h1>Location</h1></label>
           <input
             type="text"
             id="city"
@@ -44,35 +44,35 @@ function Filter() {
       </div>
       <div className="bottom">
         <div className="item">
-          <label htmlFor="type">Type</label>
+          <label htmlFor="type"><h2>Type</h2></label>
           <select
             name="type"
             id="type"
             onChange={handleChange}
             defaultValue={query.type}
           >
-            <option value="">any</option>
+            <option value="">Any</option>
             <option value="buy">Buy</option>
-            <option value="rent">Rent</option>
+            <option value="rent">Invest</option>
           </select>
         </div>
         <div className="item">
-          <label htmlFor="property">Property</label>
+          <label htmlFor="property"><h2>Category</h2></label>
           <select
             name="property"
             id="property"
             onChange={handleChange}
             defaultValue={query.property}
           >
-            <option value="">any</option>
-            <option value="apartment">Apartment</option>
-            <option value="house">House</option>
-            <option value="condo">Condo</option>
-            <option value="land">Land</option>
+            <option value="">All</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="military">Military</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="industrial">Industrial</option>
           </select>
         </div>
         <div className="item">
-          <label htmlFor="minPrice">Min Price</label>
+          <label htmlFor="minPrice"><h2>Min Price</h2></label>
           <input
             type="number"
             id="minPrice"
@@ -83,7 +83,7 @@ function Filter() {
           />
         </div>
         <div className="item">
-          <label htmlFor="maxPrice">Max Price</label>
+          <label htmlFor="maxPrice"><h2>Max Price</h2></label>
           <input
             type="text"
             id="maxPrice"
@@ -91,17 +91,6 @@ function Filter() {
             placeholder="any"
             onChange={handleChange}
             defaultValue={query.maxPrice}
-          />
-        </div>
-        <div className="item">
-          <label htmlFor="bedroom">Bedroom</label>
-          <input
-            type="text"
-            id="bedroom"
-            name="bedroom"
-            placeholder="any"
-            onChange={handleChange}
-            defaultValue={query.bedroom}
           />
         </div>
         <button onClick={handleFilter}>
