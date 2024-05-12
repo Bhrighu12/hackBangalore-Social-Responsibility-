@@ -16,6 +16,7 @@ function Navbar(){
                 <a href="/projects">Projects</a>
             </div>
             <div className="right">
+                <a href="/profile">Profile</a>
                 <a href="/login">Login</a>
                 <a href="/register" className="register">Signup</a>
                 <div className="menuIcon">
@@ -28,6 +29,7 @@ function Navbar(){
                 <a href="/">About</a>
                 <a href="/">Contact</a>
                 <a href="/projects">Projects</a>
+                <a href="/profile">Profile</a>
                 <a href="/login">Login</a>
                 <a href="/register">Signup</a>
                 </div>

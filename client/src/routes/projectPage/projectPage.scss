@@ -9,13 +9,13 @@
     height: 100%;
 
     .wrapper{
-      height: 630px;
       padding-right: 50px;
       display: flex;
       flex-direction: column;
       gap: 50px;
       overflow-y: scroll;
       padding-bottom: 50px;
+      height: 100vh;
       
     }
   }

@@ -55,7 +55,8 @@ nav{
         justify-content: flex-end;
         background-color:black;
         height: 70px;
-        gap: 50px;
+        
+        
         @include md{
             background-color: transparent;
 
