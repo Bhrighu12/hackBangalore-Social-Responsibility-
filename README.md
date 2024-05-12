@@ -1,6 +1,6 @@
 Title : Investment Karo
 
-Description : Welcome to our investment platform, where exciting opportunities await you to invest in innovative projects and ventures. At [Your Website Name], we believe in empowering individuals to become part of the next big thing by connecting them with promising projects seeking funding.
+Description : Welcome to our investment platform, where exciting opportunities await you to invest in innovative projects and ventures. At InvestmentKaro, we believe in empowering individuals to become part of the next big thing by connecting them with promising projects seeking funding.
 
 ## Overview
 
